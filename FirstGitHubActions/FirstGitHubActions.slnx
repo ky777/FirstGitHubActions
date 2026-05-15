@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FirstGitHubActions.Client/FirstGitHubActions.Client.csproj" Id="90d7aee0-2ea8-4f90-855e-110dea09b4ad" />
+  <Project Path="FirstGitHubActions.Library/FirstGitHubActions.Library.csproj" Id="0b2feb36-de09-4bff-a234-49d58a986825" />
+  <Project Path="FirstGitHubActions.Tests/FirstGitHubActions.Tests.csproj" Id="de466abf-7e09-498d-8148-e6ea78a029d3" />
+</Solution>
