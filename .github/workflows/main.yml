@@ -1,10 +1,10 @@
-name: CI Pipeline
+name: CI Pipeline develop
 
 on:
   push: # Отправка
-    branches: [main, develop] #ветви отправки
-  pull_request: #Наверное публикация
-    branches: [main] #ветвь из которой публикуется проект
+    branches: [develop] #ветви отправки
+  #pull_request: #Наверное публикация
+  # branches: [main] #ветвь из которой публикуется проект
 
 env: #среда
   DOTNET_VERSION: "10.0.x" #версия dotnet
