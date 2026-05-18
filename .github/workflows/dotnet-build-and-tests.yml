@@ -20,7 +20,7 @@ jobs:
           dotnet-quality: "preview"
 
       - name: Build with dotnet
-        run: dotnet build ./FirstGitHubActions.slnx --configuration Release
+        run: dotnet build ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
 
       - name: Test with dotnet
-        run: dotnet test ./FirstGitHubActions.slnx --configuration Release
+        run: dotnet test ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
