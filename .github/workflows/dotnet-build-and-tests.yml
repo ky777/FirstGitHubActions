@@ -15,9 +15,10 @@ jobs:
       - uses: actions/checkout@v5
       - name: Setup .NET
         uses: actions/setup-dotnet@v5
-        with:
-          dotnet-version: "10.0.x"
-          dotnet-quality: "preview"
+        #with:
+          #dotnet-version: "10.0.x"
+          #dotnet-quality: "preview"
+          
 
       - name: Build with dotnet
         run: dotnet build ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
