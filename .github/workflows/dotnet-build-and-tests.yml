@@ -24,4 +24,6 @@ jobs:
         run: dotnet build ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
 
       - name: Test with dotnet
-        run: dotnet test ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
+        #run: dotnet test ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
+        run: dotnet msbuild -t:Test ./FirstGitHubActions/FirstGitHubActions.slnx --configuration Release
+        
